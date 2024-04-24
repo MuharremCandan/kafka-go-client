@@ -9,7 +9,7 @@ import (
 )
 
 var kafkaCfg = mb.KafkaCfg{
-	Server:   "localhost:9092",
+	Server:   "localhost:29092",
 	ClientID: "TestProject",
 	Acks:     "all",
 }

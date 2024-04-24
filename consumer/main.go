@@ -6,7 +6,7 @@ import (
 )
 
 var kafkaCfg = mb.KafkaCfg{
-	Server:  "localhost:9092",
+	Server:  "localhost:29092",
 	GroupID: "TestProject",
 }
 var topic = "TestTopic"
